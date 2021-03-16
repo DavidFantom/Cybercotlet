@@ -18,7 +18,7 @@ namespace AppXML
         {
             InitializeComponent();
 
-            var path = @"C:\\Users\\iststudent\\Desktop\\bash fed\\Новая папка (2)\\LibXML\\LibXML\\XML_Auto.xml";
+            var path = @"C:\\Users\\iststudent\\Desktop\\bash fed\\Новая папка (2)\\LibXML\\LibXML\\XMLCybercotlet.xml";
             var data = Xml.LoadObjectFromFile<Root>(path);
 
             dataGridView1.DataSource = data.Children;

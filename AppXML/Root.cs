@@ -7,11 +7,11 @@ using System.Xml.Serialization;
 
 namespace AppXML
 {
-    [XmlRoot("Catalog")]
+    [XmlRoot("match_catalog")]
     
     public class Root
     {
-        [XmlElement("Car")]
-        public List<Car> Children { get; set; }
+        [XmlElement("match")]
+        public List<Match> Children { get; set; }
     }
 }
